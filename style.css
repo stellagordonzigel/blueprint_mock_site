@@ -182,16 +182,13 @@ footer {
       height: 100%;
     }
     .image-text-overlay {
-      top: 17%;
+      top: 20%;
       max-height: 360px;
       overflow: hidden;
     }
     .headshot {
-      height: 300px;
+      height: 450px;
     }
-    /* .join-form-box {
-      width: 500px;
-    } */
 }
 
 @media screen and (max-width: 480px) {
