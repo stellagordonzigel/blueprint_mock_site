@@ -9,25 +9,6 @@ nav {
   align-items: center;
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    nav {
-      flex-direction: column;
-      padding: 10px;
-    }
-    .social-donate-container {
-      flex-direction: column;
-    }
-    .social-icons, .donate-button-container {
-      margin-top: 10px;
-    }
-    .social-icons {
-      height: 40px;
-    }
-}
-
 footer {
   background-color: #0e75b0;
   text-align: center;
@@ -70,6 +51,25 @@ footer {
   font-weight: bold;
   font-size: 16px;
   margin-left: 5px;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    nav {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .social-donate-container {
+      flex-direction: column;
+    }
+    .social-icons, .donate-button-container {
+      margin-top: 10px;
+    }
+    .social-icons {
+      height: 50px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -124,23 +124,6 @@ footer {
   overflow: hidden;
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    main {
-      height: 350px;
-    }
-    .hero-image {
-      height: 100%;
-    }
-    .image-text-overlay {
-      top: 17%;
-      max-height: 360px;
-      overflow: hidden;
-    }
-}
-
 .headshot {
   height: 500px;
   padding-top: 100px;
@@ -188,6 +171,29 @@ footer {
   font-size: 12px;
 }
 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    main {
+      height: 350px;
+    }
+    .hero-image {
+      height: 100%;
+    }
+    .image-text-overlay {
+      top: 17%;
+      max-height: 360px;
+      overflow: hidden;
+    }
+    .headshot {
+      height: 300px;
+    }
+    /* .join-form-box {
+      width: 500px;
+    } */
+}
+
 @media screen and (max-width: 480px) {
   .headshot {
     height: 300px;
@@ -202,7 +208,6 @@ footer {
     overflow: hidden;
   }
   .join-form-box {
-    padding: 1px 10px 10px 10px;
     width: 200px;
   }
   .dark-blue-text, .light-blue-text {
