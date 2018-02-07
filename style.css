@@ -53,6 +53,26 @@ footer {
   margin-left: 5px;
 }
 
+@media screen and (max-width: 480px) {
+  .top-logo {
+    height: 75px;
+  }
+  .social-icons {
+    height: 20px;
+    margin-left: 10px;
+  }
+  .donate-button-container {
+    padding: 2px 25px;
+    margin-left: 10px;
+  }
+  .money-icon {
+    height: 15px;
+  }
+  .donate {
+    font-size: 14px;
+  }
+}
+
 .main-image-content-container {
   max-height: 400px;
   overflow: hidden;
@@ -63,6 +83,15 @@ footer {
   position: relative;
   top: 25%;
   transform: translateY(-25%);
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    height: 350px;
+  }
+  .hero-image {
+    height: 100%;
+  }
 }
 
 .image-text-overlay {
@@ -119,11 +148,36 @@ footer {
   color: #38a6e8;
 }
 
-.sign-up {
+.sign-up-text {
   font-size: 12px;
 }
 
-.contact {
+@media screen and (max-width: 480px) {
+  .headshot {
+    height: 300px;
+  }
+  .image-text-overlay {
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    max-height: 320px;
+    overflow: hidden;
+  }
+  .join-form-box {
+    padding: 1px 10px 10px 10px;
+    width: 200px;
+  }
+  .dark-blue-text, .light-blue-text {
+    font-size: 20px;
+  }
+  .join-samantha {
+    font-size: 15px;
+  }
+}
+
+.contact, a {
   color: white;
   font-size: 10px;
 }
@@ -133,4 +187,17 @@ footer {
   border: 1px solid white;
   padding: 5px 30px;
   font-size: 10px;
+}
+
+@media screen and (max-width: 667px) {
+  footer {
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workout-name-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
