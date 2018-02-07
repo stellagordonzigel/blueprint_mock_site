@@ -133,7 +133,7 @@ footer {
     }
     .image-text-overlay {
       top: 17%;
-      max-height: 338px;
+      max-height: 360px;
       overflow: hidden;
     }
 }
