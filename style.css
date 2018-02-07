@@ -23,6 +23,9 @@ nav {
     .social-icons, .donate-button-container {
       margin-top: 10px;
     }
+    .social-icons {
+      height: 40px;
+    }
 }
 
 footer {
